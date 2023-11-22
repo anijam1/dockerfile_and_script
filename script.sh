@@ -12,7 +12,7 @@ echo "Enter the name of the user who needs to change the password:"
 		else
 			echo "User $user no found"
 	fi
-done #15
+done
 
 while true
 do
@@ -43,5 +43,4 @@ do
 	echo "Enter new password"
 	passwd $name
 	break;
-br
 done
